@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DAE93F586634101A9480222 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C385798F6A5948AA914F41D7 /* libPods.a */; };
+		FE4D54D017701D730045F406 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D54CF17701D730045F406 /* profile.png */; };
+		FE4D54D2177023160045F406 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D54D1177023160045F406 /* menu.png */; };
+		FE5661A31770063200FA48EF /* TMGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5661A21770063200FA48EF /* TMGMainViewController.m */; };
+		FE72F4051770142C00D0FA6D /* TMGMenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72F4041770142C00D0FA6D /* TMGMenuStoryboard.storyboard */; };
+		FE8101AA17700202004B9E6D /* TMGSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8101A917700202004B9E6D /* TMGSlideViewController.m */; };
+		FE8101AC1770031B004B9E6D /* TMGStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8101AB1770031B004B9E6D /* TMGStoryboard.storyboard */; };
+		FE8101AF177005AE004B9E6D /* TMGMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8101AE177005AE004B9E6D /* TMGMenuViewController.m */; };
+		FEA001C917715464009B74AC /* TMGSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA001C817715464009B74AC /* TMGSettings.m */; };
 		FEC10BA61770003A00366910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC10BA51770003A00366910 /* UIKit.framework */; };
 		FEC10BA81770003A00366910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC10BA71770003A00366910 /* Foundation.framework */; };
 		FEC10BAA1770003A00366910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC10BA91770003A00366910 /* CoreGraphics.framework */; };
@@ -18,9 +27,26 @@
 		FEC10BBC1770003A00366910 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC10BBB1770003A00366910 /* Default@2x.png */; };
 		FEC10BBE1770003A00366910 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC10BBD1770003A00366910 /* Default-568h@2x.png */; };
 		FEC10BC11770003A00366910 /* TwentyMinuteGenealogist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC10BBF1770003A00366910 /* TwentyMinuteGenealogist.xcdatamodeld */; };
+		FEC9E0CE1777B1340049152F /* TMGFanChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC9E0CD1777B1340049152F /* TMGFanChart.m */; };
+		FEC9E0D11777EE570049152F /* TMGFanLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC9E0D01777EE570049152F /* TMGFanLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8A95A16F624B9BBB402E49 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C385798F6A5948AA914F41D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4D54CF17701D730045F406 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = TwentyMinuteGenealogist/profile.png; sourceTree = "<group>"; };
+		FE4D54D1177023160045F406 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = TwentyMinuteGenealogist/menu.png; sourceTree = "<group>"; };
+		FE5661A11770063200FA48EF /* TMGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGMainViewController.h; sourceTree = "<group>"; };
+		FE5661A21770063200FA48EF /* TMGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGMainViewController.m; sourceTree = "<group>"; };
+		FE72F4001770122D00D0FA6D /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		FE72F4041770142C00D0FA6D /* TMGMenuStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TMGMenuStoryboard.storyboard; sourceTree = "<group>"; };
+		FE8101A817700202004B9E6D /* TMGSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGSlideViewController.h; sourceTree = "<group>"; };
+		FE8101A917700202004B9E6D /* TMGSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGSlideViewController.m; sourceTree = "<group>"; };
+		FE8101AB1770031B004B9E6D /* TMGStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TMGStoryboard.storyboard; sourceTree = "<group>"; };
+		FE8101AD177005AE004B9E6D /* TMGMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGMenuViewController.h; sourceTree = "<group>"; };
+		FE8101AE177005AE004B9E6D /* TMGMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGMenuViewController.m; sourceTree = "<group>"; };
+		FEA001C717715464009B74AC /* TMGSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGSettings.h; sourceTree = "<group>"; };
+		FEA001C817715464009B74AC /* TMGSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGSettings.m; sourceTree = "<group>"; };
 		FEC10BA21770003A00366910 /* TwentyMinuteGenealogist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyMinuteGenealogist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC10BA51770003A00366910 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FEC10BA71770003A00366910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +62,10 @@
 		FEC10BBB1770003A00366910 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FEC10BBD1770003A00366910 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FEC10BC01770003A00366910 /* TwentyMinuteGenealogist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwentyMinuteGenealogist.xcdatamodel; sourceTree = "<group>"; };
+		FEC9E0CC1777B1340049152F /* TMGFanChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGFanChart.h; sourceTree = "<group>"; };
+		FEC9E0CD1777B1340049152F /* TMGFanChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGFanChart.m; sourceTree = "<group>"; };
+		FEC9E0CF1777EE570049152F /* TMGFanLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGFanLocation.h; sourceTree = "<group>"; };
+		FEC9E0D01777EE570049152F /* TMGFanLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMGFanLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,18 +77,34 @@
 				FEC10BA81770003A00366910 /* Foundation.framework in Frameworks */,
 				FEC10BAA1770003A00366910 /* CoreGraphics.framework in Frameworks */,
 				FEC10BAC1770003A00366910 /* CoreData.framework in Frameworks */,
+				7DAE93F586634101A9480222 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE72F403177013FA00D0FA6D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FE72F4041770142C00D0FA6D /* TMGMenuStoryboard.storyboard */,
+				FE8101AD177005AE004B9E6D /* TMGMenuViewController.h */,
+				FE8101AE177005AE004B9E6D /* TMGMenuViewController.m */,
+				FEA001C717715464009B74AC /* TMGSettings.h */,
+				FEA001C817715464009B74AC /* TMGSettings.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		FEC10B991770003A00366910 = {
 			isa = PBXGroup;
 			children = (
+				FE4D54D1177023160045F406 /* menu.png */,
+				FE4D54CF17701D730045F406 /* profile.png */,
 				FEC10BAD1770003A00366910 /* TwentyMinuteGenealogist */,
 				FEC10BA41770003A00366910 /* Frameworks */,
 				FEC10BA31770003A00366910 /* Products */,
+				0A8A95A16F624B9BBB402E49 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +123,7 @@
 				FEC10BA71770003A00366910 /* Foundation.framework */,
 				FEC10BA91770003A00366910 /* CoreGraphics.framework */,
 				FEC10BAB1770003A00366910 /* CoreData.framework */,
+				C385798F6A5948AA914F41D7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +131,18 @@
 		FEC10BAD1770003A00366910 /* TwentyMinuteGenealogist */ = {
 			isa = PBXGroup;
 			children = (
+				FEC9E0CC1777B1340049152F /* TMGFanChart.h */,
+				FEC9E0CD1777B1340049152F /* TMGFanChart.m */,
+				FEC9E0CF1777EE570049152F /* TMGFanLocation.h */,
+				FEC9E0D01777EE570049152F /* TMGFanLocation.m */,
+				FE72F403177013FA00D0FA6D /* Menu */,
 				FEC10BB61770003A00366910 /* TMGMainAppDelegate.h */,
 				FEC10BB71770003A00366910 /* TMGMainAppDelegate.m */,
+				FE8101A817700202004B9E6D /* TMGSlideViewController.h */,
+				FE8101A917700202004B9E6D /* TMGSlideViewController.m */,
+				FE5661A11770063200FA48EF /* TMGMainViewController.h */,
+				FE5661A21770063200FA48EF /* TMGMainViewController.m */,
+				FE8101AB1770031B004B9E6D /* TMGStoryboard.storyboard */,
 				FEC10BBF1770003A00366910 /* TwentyMinuteGenealogist.xcdatamodeld */,
 				FEC10BAE1770003A00366910 /* Supporting Files */,
 			);
@@ -102,6 +159,7 @@
 				FEC10BB91770003A00366910 /* Default.png */,
 				FEC10BBB1770003A00366910 /* Default@2x.png */,
 				FEC10BBD1770003A00366910 /* Default-568h@2x.png */,
+				FE72F4001770122D00D0FA6D /* Macros.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEC10BC41770003A00366910 /* Build configuration list for PBXNativeTarget "TwentyMinuteGenealogist" */;
 			buildPhases = (
+				807203E664524D98B17EFC20 /* Check Pods Manifest.lock */,
 				FEC10B9E1770003A00366910 /* Sources */,
 				FEC10B9F1770003A00366910 /* Frameworks */,
 				FEC10BA01770003A00366910 /* Resources */,
+				75F51F9BB84B4EAF9EE6DBF2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,10 +222,45 @@
 				FEC10BBA1770003A00366910 /* Default.png in Resources */,
 				FEC10BBC1770003A00366910 /* Default@2x.png in Resources */,
 				FEC10BBE1770003A00366910 /* Default-568h@2x.png in Resources */,
+				FE8101AC1770031B004B9E6D /* TMGStoryboard.storyboard in Resources */,
+				FE72F4051770142C00D0FA6D /* TMGMenuStoryboard.storyboard in Resources */,
+				FE4D54D017701D730045F406 /* profile.png in Resources */,
+				FE4D54D2177023160045F406 /* menu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F51F9BB84B4EAF9EE6DBF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		807203E664524D98B17EFC20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEC10B9E1770003A00366910 /* Sources */ = {
@@ -175,6 +270,12 @@
 				FEC10BB41770003A00366910 /* main.m in Sources */,
 				FEC10BB81770003A00366910 /* TMGMainAppDelegate.m in Sources */,
 				FEC10BC11770003A00366910 /* TwentyMinuteGenealogist.xcdatamodeld in Sources */,
+				FE8101AA17700202004B9E6D /* TMGSlideViewController.m in Sources */,
+				FE8101AF177005AE004B9E6D /* TMGMenuViewController.m in Sources */,
+				FE5661A31770063200FA48EF /* TMGMainViewController.m in Sources */,
+				FEA001C917715464009B74AC /* TMGSettings.m in Sources */,
+				FEC9E0CE1777B1340049152F /* TMGFanChart.m in Sources */,
+				FEC9E0D11777EE570049152F /* TMGFanLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +353,7 @@
 		};
 		FEC10BC51770003A00366910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8A95A16F624B9BBB402E49 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwentyMinuteGenealogist/TwentyMinuteGenealogist-Prefix.pch";
@@ -263,6 +365,7 @@
 		};
 		FEC10BC61770003A00366910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8A95A16F624B9BBB402E49 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwentyMinuteGenealogist/TwentyMinuteGenealogist-Prefix.pch";
@@ -291,6 +394,7 @@
 				FEC10BC61770003A00366910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

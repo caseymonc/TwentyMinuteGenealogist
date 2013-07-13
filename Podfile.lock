@@ -1,0 +1,16 @@
+PODS:
+  - AGMedallionView (1.1.0)
+  - MSNavigationPaneViewController (0.2.0):
+    - PRTween (~> 0.0.1)
+  - PRTween (0.0.1)
+
+DEPENDENCIES:
+  - AGMedallionView (~> 1.1.0)
+  - MSNavigationPaneViewController (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  AGMedallionView: 0c7c7e3eca4a0feb7c4c1347c31bc3b7576650d8
+  MSNavigationPaneViewController: 179285558ba1a61a9de68e84d91e77efccb3f3d6
+  PRTween: d0439e7917031328f81de4910c5b02e202389939
+
+COCOAPODS: 0.20.2

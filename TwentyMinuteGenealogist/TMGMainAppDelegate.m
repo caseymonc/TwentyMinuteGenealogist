@@ -6,7 +6,9 @@
 //  Copyright (c) 2013 KinPoint. All rights reserved.
 //
 
+#import "TMGSettings.h"
 #import "TMGMainAppDelegate.h"
+#import "TMGSlideViewController.h"
 
 @implementation TMGMainAppDelegate
 
@@ -18,7 +20,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [TMGSlideViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -48,6 +50,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
+    [[TMGSettings instance] saveSettings];
     [self saveContext];
 }
 
